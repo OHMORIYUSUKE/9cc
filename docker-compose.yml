@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    build: .
+    container_name: 9cc
+    volumes:
+      - ./9cc:/home/user/9cc
+    tty: true
