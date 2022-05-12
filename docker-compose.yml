@@ -1,6 +1,6 @@
 version: "3"
 services:
-  web:
+  9cc:
     build: .
     container_name: 9cc
     volumes:
