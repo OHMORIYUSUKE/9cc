@@ -4,5 +4,5 @@ services:
     build: .
     container_name: 9cc
     volumes:
-      - ./9cc:/home/user/9cc
+      - ./src:/home/user/9cc
     tty: true
