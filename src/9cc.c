@@ -18,6 +18,11 @@ int main(int argc, char **argv)
 
   while (*p)
   {
+    // printf("\n The ASCII value of the character is : %c\n", *p);
+    // printf("(%s)\n", p);
+    // アドレスは ASCII(0x7fff3f08b922)に定義されている
+    // %d(整数にキャストされる), %p, &(*p)(ポインタ(ASCII)にキャストされる), %c (char型にキャストされる)
+    // ASCII => charに変換可能, ASCII => 10進数に変換可能
     if (*p == '+')
     {
       p++;
